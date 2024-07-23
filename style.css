@@ -1,0 +1,179 @@
+html ,body{
+    width: 100%;
+    height:100%;
+  position: relative;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+@font-face{
+    font-family:'iransans';
+    src:url('iransansweb.ttf');
+}
+
+
+.background-over{
+    background-color:darkgrey;
+    
+}
+.display-f{
+    border: 0cap;
+    z-index: 99;
+    margin-left: 0px;
+}
+.display-f:hover{
+    background-color:darkgrey;
+    cursor: pointer;
+}
+.border-botten{
+    background-color: #dc392d;
+    height:3px;
+    
+}
+.border-header{
+    border: 0px solid seashell;
+  
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+.m-7{
+    margin: 65px; 
+    z-index: 99;
+}
+.position-bottm{
+    position: absolute;
+    top:12px;
+    left: 15px;
+    position: fixed;
+}
+
+
+.fft{
+    background-color:#dc392d;
+    width: 500px;
+    height:50px;
+}
+.p-ikon{
+    position: absolute;
+    top: 18px;
+    right: 7px;
+    border-radius: 50%;
+    padding: 4px;
+    border-color: aliceblue;
+    border: 0;
+    position: fixed;
+    z-index: 99;
+}
+.p-ikon:hover{
+    background-color: darkgray;
+}
+.color-dowenlod{
+    color: #dc392d;
+    border-color:#dc392d;
+font-size:10px;
+background-color: #ebc6c4;
+border:0px;
+position: absolute;
+top: 20px;
+right: 40px;
+position:fixed;
+z-index: 99;
+}
+.color-dowenlod:hover{
+background-color: #b38b88;
+color: #dc392d;
+
+}
+
+
+.background-zkkz{
+    background-color: black;
+    width: 100%;
+    height: 569px;
+    position: absolute;
+top: 50px;
+opacity: 0.88! important;
+}
+.background-zkkz{ clip-path: polygon(0% 0%, 68% 0%, 60% 100%, 0% 100%);
+}
+.border-noun-color{
+    width: 65px;
+    background-color: black;
+border: 0cap;
+border-radius:50%; 
+margin: 15px;
+height: 65px;
+}
+.border-noun-color:hover{
+    background-color:red; 
+    cursor:pointer;
+
+    }
+
+
+
+.berand-coler{
+    color: aliceblue;
+    padding: center;
+    border-radius: 50%;
+}
+
+.position-absolute{
+    top: 200px;
+    right: 20px;
+}
+.font-size-big{
+    font-weight:500;
+    color: aliceblue;
+    font-size: 56px;
+    
+}
+.font-widght{
+    width: 40%;
+color: aliceblue;
+margin-top: 65px;
+font-weight: 400;
+font-size: 22px;
+
+}
+.position-absolute-2 {
+    position:absolute;
+    top: 170px;
+left: 150px;
+}
+.margin-bottmm{
+position: absolute;
+top:56px;
+}
+.background-color-disadle{
+    color: rgb(238, 252, 252);
+    background-color:#1c4444;
+    font-size: small;
+    padding: 20px;
+    border: 0px;
+    width: 130px;
+    font-weight:700;
+    position: absolute;
+    left: 350px;
+    
+}
+.input-width-h{
+    width: 310px;
+    height: 59px;
+    border-radius:8px;
+    border:0px;
+
+}
+.input-position{
+    position:absolute;
+    top: 460px;
+    left:150px;
+}
+
+.taghir{
+    position: fixed;
+}
